@@ -1,7 +1,7 @@
 .anne_image {
 	position: relative;
-	width:50%;
-	height:50%;
+	width:100%;
+	height:700px;
 	text-align: center;
 	background-color: #1FB8BF;
 
@@ -11,8 +11,6 @@
 	position: absolute;
   top: 50px;
   left: 28%;
-  
-
 }
 
 #name_text {
