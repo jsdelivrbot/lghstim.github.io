@@ -8,8 +8,8 @@
 }
 
 #headshot {
-	position: absolute;
-  left: 28%;
+	display: block;
+    margin: 0 auto;
 }
 
 #name_text {
