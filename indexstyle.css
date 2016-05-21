@@ -7,6 +7,12 @@
 
 }
 
+
+anne_image.resize {
+	width:540px; /* you can use % */
+    height: auto;
+}
+
 #headshot {
 	position: absolute;
   top: 50px;
