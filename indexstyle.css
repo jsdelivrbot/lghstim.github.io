@@ -1,16 +1,10 @@
 .anne_image {
 	position: relative;
-	width:20%;
-	height:20%;
+	width:50%;
+	height:50%;
 	text-align: center;
 	background-color: #1FB8BF;
 
-}
-
-
-anne_image.resize {
-	width:540px; /* you can use % */
-    height: auto;
 }
 
 #headshot {
