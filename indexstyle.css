@@ -12,6 +12,10 @@
     margin: 0 auto;
 }
 
+#snapscrambleshot {
+	right: 200;
+}
+
 #name_text {
 	position:absolute;
 	top:450px;
