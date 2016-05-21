@@ -1,23 +1,59 @@
----
-layout: default
----
 
-<div class="home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="indexstyle.css" >
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">`
+  <meta charset="utf-8">
+  <title>Anne Zepecki</title>
+  </head>
 
-  <h1 class="page-heading">Posts</h1>
+  <body>
+    <div class="anne_image">
+    <img src="newheadshot.jpg" alt="Anne" id="headshot">
+    <h2 id="name_text">Anne <br/> Zepecki</h2>
+  </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="about">
+    <div class="heading">
+      <h1>Los Gatos High School</h1>
+    </div>
+    <div class="parttwo">
+      <h1>UCLA, Computer Science and Engineering</h1>
+    </div>
+    
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+    <h2 color="#FFFDD0">Computer Science Experience</h2>
+    <ul>
+      <li>QA Testing Intern; Cognoa (January 2016 - Present)</li>
+      <li>Founder and President; Girls in Computer Science Club (2013-2016)</li>
+      <li>Head Organizer; LG Hacks (2016) </li>
+      <li>Summer Immersion Level 3 Pilot Program; Girls Who Code (June 2015-July 2015) </li>
+      <li>Intern; Intel (August 2015-December 2015)</li>
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <h2 color="#FFFDD0">Leadership Experience</h2>
+    <ul>
+      <li>Tennis Instructor; Bay Club Courtside (2012-Present)</li>
+      <li>Unconditionally Positive; Los Gatos High School Peer-to-Peer Education (2014-Present)</li>
+      <li>Head Organizer; TEDxLosGatosHighSchool (2015-2016)</li>
+    </ul>
+
+    <h2 color="#FFFDD0">Technical Skills</h2>
+    <ul>
+      <li>Java</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>HTML/XML</li>
+      <li>CSS Styling</li>
+      <li>Microsfot Excel</li>
+      <li>Basic Android Development</li>
+    </ul>
 
 </div>
+
+
+  
+
+</body>
+</html>
