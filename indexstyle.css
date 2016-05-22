@@ -1,60 +1,41 @@
-.tim_image {
-	position: relative;
-	width:100%;
-	height:300px;
+body {
+	background-color: #0066FF;
+}
+
+.navy {
+
+	background: #71C7F0;
 	text-align: center;
-	background-color: #00CCFF;
+	border-radius: 100px;
+	padding: 15px;
+	height: 500px;
+}
+
+.orange{
+	text-align: center;
+	background: orange;
+	border-radius: 100px;
+	height: 1200px;
+	padding-top: 15px;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
+h2 {
+	color:#CC6600;
+}
+
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	color:#CC6600;
+
 }
 
 #headshot {
     border-radius: 25px;
 	display: block;
     margin: 0 auto;
+    width: headshot.width/3;
+    height: headshot.height/3;
 }
-
-#snapscrambleshot {
-	right: 200;
-}
-
-#name_text {
-	position:absolute;
-	top:450px;
-	left: 30%;
-	width:100%;
-	background-color: #60dfe5;
-	color: #FFFFFF;
-	width: 200px;
-	font-family: Tiffany;
-	font-size: 45px;
-}
-
-.about {
-	font-family: Tiffany; 
-	background-color: #000000;
-	color: #FFFFFF;
-	padding-top: 25px;
-	padding-left: 30px;
-	padding-bottom: 25px;
-	padding-right: 30px;
-}
-
-
-.heading {
-	margin-left: 300px;
-}
-
-.parttwo {
-	margin-left: 150px;
-}
-
-
-body {
-	background-color: #FFFDD0;
-}
-
-@font-face {
-	font-family: Tiffany;
-	src: url(stepha5.ttf);
-}
-
 
